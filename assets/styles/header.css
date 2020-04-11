@@ -1,0 +1,52 @@
+header{
+  height: 38vw;
+  color: white;
+  background-image: url('../img/header-background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header-container {
+  height: 50%;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container .logo {
+  width: 23%;
+  margin-right: 5%;
+}
+
+.header-content {
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-content h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 4vw;
+}
+
+.header-content p {
+  font-size: 1vw;
+}
+.header-content img {
+  width: 25%;
+  float: left;
+  margin-top: 15px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  /*.cards{
+    flex-direction: column;
+  }*/
+
+  header {
+    display: none;
+  }
+}

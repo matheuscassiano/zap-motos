@@ -1,0 +1,23 @@
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 0;
+}
+
+.video h3 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.video img {
+  width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+   .video img{
+    width: 80%;
+   }
+ }

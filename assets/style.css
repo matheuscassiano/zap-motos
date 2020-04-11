@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap');
+
+@import url('./styles/global.css');
+@import url('./styles/header.css');
+@import url('./styles/menu.css');
+@import url('./styles/services.css');
+@import url('./styles/video.css');
+@import url('./styles/form.css');
+@import url('./styles/modal.css');
+@import url('./styles/prices.css');
+@import url('./styles/footer.css');
