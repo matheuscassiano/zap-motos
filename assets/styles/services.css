@@ -25,6 +25,13 @@
 
 .camp div {
   width: 50%;
+  margin: 200px 0;
+}
+
+.camp img {
+  min-width: 15%;
+  max-width: 50%;
+  margin: 0 25px;
 }
 
 .camp-title {

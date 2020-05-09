@@ -13,12 +13,30 @@
 }
 
 .modal {
-  background: white;
-  width: 60%;
+  width: 30%;
+  min-height: 200px;
   min-width: 300px;
   padding: 40px;
-  border-radius: 10px;
   position: relative;
+  border-radius: 15px;
+  background: white;
+  color: #FF830F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.modal h3 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modal p {
+  margin: 25px 0;
+ text-align: center;
 }
 
 @keyframes modal {
